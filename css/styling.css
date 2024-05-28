@@ -1,0 +1,410 @@
+header{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) , url(../imgs/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+header .container h1::after{
+    content: "";
+    animation-name: header;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+header i{
+    background-color: rgba(45, 42, 42, 0.597);
+}
+@keyframes header{
+    0%{
+        content: "Larry Daniels|";
+    }
+    
+    5%{
+        content: "Larry Danie|";
+    }
+    5.5%{
+        content: "Larry Dani|";
+    }
+    6%{
+        content: "Larry Dan|";
+    }
+    7%{
+        content: "Larry Da|";
+    }
+    8%{
+        content: "Larry D|";
+    }
+    10%{
+        content: "Larry |";
+    }
+    11%{
+        content: "Larry|";
+    }
+    13%{
+        content: "Larr|";
+    }
+    14%{
+        content: "Lar|";
+    }
+    16%{
+        content: "La|";
+    }
+    17%{
+        content: "L|";
+    }
+    19%{
+        content: "|";
+    }
+    20%{
+        content: "D|";
+    }
+    22%{
+        content: "De|";
+    }
+    23%{
+        content: "Dev|";
+    }
+    25%{
+        content: "Deve|";
+    }
+    26%{
+        content: "Devel|";
+    }
+    28%{
+        content: "Develo|";
+    }
+    29%{
+        content: "Develop|";
+    }
+    30%{
+        content: "Develope|";
+    }
+    30.1%{
+        content: "Developer|";
+    }
+    36%{
+        content: "Developer|";
+    }
+    36.5%{
+        content: "Develope|";
+    }
+    37%{
+        content: "Develop|";
+    }
+    38%{
+        content: "Develo|";
+    }
+    40%{
+        content: "Devel|";
+    }
+    41%{
+        content: "Deve|";
+    }
+    43%{
+        content: "Dev|";
+    }
+    44%{
+        content: "De|";
+    }
+    46%{
+        content: "D|";
+    }
+    47%{
+        content: "|";
+    }
+    49%{
+        content: "D|";
+    } 
+    50%{
+        content: "De|";
+    }
+    52%{
+        content: "Des|";
+    }
+    53%{
+        content: "Desi|";
+    }
+    54%{
+        content: "Desig|";
+    }
+    55%{
+        content: "Design|";
+    }
+    56%{
+        content: "Designe|";
+    }
+    56.5%{
+        content: "Designer|";
+    }
+    62%{
+        content: "Desginer|";
+    }
+    62.5%{
+        content: "Desgine|";
+    }
+    63%{
+        content: "Design|";
+    }
+    64%{
+        content: "Desig|";
+    }
+    65%{
+        content: "Desi|";
+    }
+    66%{
+        content: "Des|";
+    }
+    67%{
+        content: "De|";
+    }
+    69%{
+        content: "D|";
+    }
+    80%{
+        content: "|";
+    }
+    82%{
+        content: "La|";
+    }
+    83%{
+        content: "Lar|";
+    }
+    85%{
+        content: "Larr|";
+    }
+    86%{
+        content: "Larry|";
+    }
+    88%{
+        content: "Larry |";
+    }
+    89%{
+        content: "Larry D|";
+    }
+    91%{
+        content: "Larry Da|";
+    }
+    92%{
+        content: "Larry Dan|";
+    }
+    94%{
+        content: "Larry Dani|";
+    }
+    95%{
+        content: "Larry Danie|";
+    }
+    96%{
+        content: "Larry Daniel|";
+    }
+    97%{
+        content: "Larry Daniels|";
+    }
+    100%{
+        content: "Larry Daniels|";
+    }
+}
+
+.navbar-brand {
+    font-size: 25px;
+    letter-spacing: .5px;
+}
+.about .about-img{
+    position: relative;
+}
+
+.about .about-img::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.about .about-content .a1{
+    background-color: black;
+    color: aliceblue;
+    transition: all .5s;
+}
+.about .about-content .a2{
+    transition: all .5s;
+}
+.about .about-content .a1:hover{
+    background-color: transparent;
+    color: black;
+}
+.about .about-content .a2:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.about-content h2{
+    letter-spacing: .1px;
+    line-height: 25px;
+}
+.services{
+    background-color: rgb(205, 208, 211);
+}
+.services .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.services i{
+    background-color: rgb(227, 230, 233);
+    text-align: center;
+    transition: all 1s;
+}
+.services .inner:hover i{
+    background-color: black;
+    color: aliceblue;
+}
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs .nav-link.active{
+    border-color: transparent;
+    color: rgb(42, 41, 40);
+}
+.nav-tabs .nav-link:hover{
+    border-color: transparent;
+    color: rgb(42, 41, 40);
+}
+.nav-link{
+    color: rgb(42, 41, 40);
+}
+.port-img{
+    position: relative;
+    
+}
+.port-img .layer{
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+    top: 0;
+    border: solid 8px rgb(157, 155, 155); 
+}
+.port-img:hover .layer{
+    opacity: 1;
+    border: solid 5px rgb(157, 155, 155);
+}
+
+.porto .icon-container i{
+    background-color: black;
+    border: solid 3px black;
+    color: aliceblue;
+}
+.porto .port-img i:hover{
+    background-color: rgb(221, 216, 216);
+    border: solid 3px;
+    color: rgb(0, 0, 0);
+}
+.porto .icon-container {
+    position: relative;
+    top: 10px;
+    transition: all 1s;
+}
+.porto h5{
+    position: relative;
+    bottom: 10px;
+    transition: all 1s;
+} 
+.port-img:hover .layer .icon-container{
+    top: 0;
+ }
+.port-img:hover .layer h5{
+    bottom: 0;
+ }
+
+ .work{
+    background-color: rgb(194, 198, 201);
+ }
+ .work img{
+    width: 80px;
+ }
+ .work h2{
+    letter-spacing: .1px;
+ }
+ .work p{
+    letter-spacing: 0px;
+ }
+ .carousel-indicators{
+    bottom: -30px;
+ }
+ .team .team-img{
+    position: relative;
+ }
+ .team-img .layer2{
+    background-color: rgba(240, 248, 255, 0.864);
+    background-clip: padding-box;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+ }
+ .team-caption {
+    background-color: rgb(80, 78, 78);
+ }
+
+ .card:hover .team-img img{
+   transform: scale(1.2);
+ }
+ .card:hover .team-img .layer2{
+   opacity: 1;
+   transform: rotatey('180deg');
+ }
+ .card img{
+    transition: all 1s;
+ }
+ .team .team-icons i{
+    background-color: black;
+    border: solid 2px black;
+    color: aliceblue;
+}
+.team .team-icons i:hover{
+    background-color: rgb(221, 216, 216);
+    border: solid 3px;
+    color: rgb(0, 0, 0);
+}
+.team .team-icons i{
+    transition: all 1s;
+}
+.team{
+    background-color: #f1f1f1;
+}
+.contact i{
+    background-color: #d9d9d9;
+}
+.btn{
+    background-color: black;
+    color: #f1f1f1;
+    align-items: flex-start;
+    
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border:solid #000000;
+}
+input[type="text"], input[type="email"], .contact textarea {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+.service i{
+    background-color: rgb(173, 172, 172);
+    color: aliceblue;
+}
+.service i:hover{
+    background-color: rgb(221, 216, 216);
+    border: solid 3px;
+    color: rgb(0, 0, 0);
+}
+.service i {
+    transition: all 1s;
+}
+html{
+    scroll-padding-top: 62px;
+}
